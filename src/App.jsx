@@ -9,16 +9,16 @@ import Bookings from './pages/Bookings';
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className='bg-white min-h-screen overflow-hidden'>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/hotels" element={<Hotels />} />
-          <Route path="/flights" element={<Flights />} />
-          <Route path="/bookings" element={<Bookings />} />
+    <BrowserRouter data-jc-id="Z3M6NG">
+      <div className='bg-white min-h-screen overflow-hidden' data-jc-id="Z3M6L3">
+        <Navbar data-jc-id="Z3M5XQ"/>
+        <Routes data-jc-id="Z3M5W1">
+          <Route path="/" element={<Home />} data-jc-id="Z3M5UC"/>
+          <Route path="/hotels" element={<Hotels />} data-jc-id="Z3M580"/>
+          <Route path="/flights" element={<Flights />} data-jc-id="Z3M53J"/>
+          <Route path="/bookings" element={<Bookings />} data-jc-id="Z3M4GC"/>
         </Routes>
-        <Footer />
+        <Footer data-jc-id="Z3M3RH"/>
       </div>
     </BrowserRouter>
   );

@@ -25,13 +25,13 @@ const Logos = () => {
   ];
 
   return (
-    <section className="container mx-auto px-6 py-10 mb-20">
-      <div className="grid grid-cols-2 md:grid-cols-5 gap-8 items-center justify-items-center">
+    <section className="container mx-auto px-6 py-10 mb-20" data-jc-id="7C8I0Q">
+      <div className="grid grid-cols-2 md:grid-cols-5 gap-8 items-center justify-items-center" data-jc-id="7C8I5Z">
         {logos.map((logo, index) => (
           <div
             key={index}
             className="w-32 h-16 flex items-center justify-center filter grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300 transform hover:scale-110 cursor-pointer text-center bg-white p-2 rounded-lg"
-          >
+          data-jc-id="EFU83K">
             <img
               src={logo.url}
               alt={logo.name}
@@ -40,7 +40,7 @@ const Logos = () => {
                 e.target.style.display = "none";
                 e.target.parentNode.innerText = logo.name;
               }}
-            />
+            data-jc-id="EFUAAR"/>
           </div>
         ))}
       </div>

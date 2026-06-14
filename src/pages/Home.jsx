@@ -10,13 +10,13 @@ import Subscribe from '../components/Subscribe';
 const Home = () => {
   return (
     <>
-      <Hero />
-      <Services />
-      <Destinations />
-      <BookTrip />
-      <Testimonials />
-      <Logos />
-      <Subscribe />
+      <Hero data-jc-id="0GRX0Q"/>
+      <Services data-jc-id="0GRWZ5"/>
+      <Destinations data-jc-id="0GRWXG"/>
+      <BookTrip data-jc-id="0GRWVN"/>
+      <Testimonials data-jc-id="0GRWTY"/>
+      <Logos data-jc-id="0GRWA2"/>
+      <Subscribe data-jc-id="0GRW8G"/>
     </>
   );
 };
