@@ -12,9 +12,7 @@ const Destinations = () => {
         <h3 className="text-[#5E6282] font-semibold text-lg uppercase" data-jc-id="CY2TO3">
           Top Sellingddddddddddddddddddddddddd
         </h3>
-        <h2 className="text-4xl md:text-5xl font-bold font-display text-[#181E4B] mt-2" data-jc-id="CY2SWL">
-          Top Destinations
-        </h2>
+
       </div>
     </section>
   );
