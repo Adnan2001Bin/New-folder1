@@ -15,6 +15,9 @@ const Destinations = () => {
         <h2 className="text-4xl md:text-5xl font-bold font-display text-[#181E4B] mt-2">
           Top Destinations
         </h2>
+        <h2 className="text-4xl md:text-5xl font-bold font-display text-[#181E4B] mt-2">
+          Top Destinations
+        </h2>
       </div>
     </section>
   );
