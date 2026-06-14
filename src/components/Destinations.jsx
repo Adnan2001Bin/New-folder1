@@ -7,12 +7,12 @@ const Destinations = () => {
     <section
       className="container mx-auto px-6 py-10 mb-20 relative"
       id="destinations"
-    >
-      <div className="text-center mb-16">
-        <h3 className="text-[#5E6282] font-semibold text-lg uppercase">
+    data-jc-id="CY2UJ4">
+      <div className="text-center mb-16" data-jc-id="CY2TRN">
+        <h3 className="text-[#5E6282] font-semibold text-lg uppercase" data-jc-id="CY2TO3">
           Top Selling
         </h3>
-        <h2 className="text-4xl md:text-5xl font-bold font-display text-[#181E4B] mt-2">
+        <h2 className="text-4xl md:text-5xl font-bold font-display text-[#181E4B] mt-2" data-jc-id="CY2SWL">
           Top Destinations
         </h2>
       </div>
